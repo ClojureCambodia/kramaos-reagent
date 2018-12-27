@@ -18,14 +18,14 @@ return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMP
 kramaos.core.router = reitit.frontend.router.call(null,new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["/",new cljs.core.Keyword(null,"index","index",-1531685915)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["/kosmos",new cljs.core.Keyword(null,"kosmos","kosmos",-1574891219)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["/tutorials",new cljs.core.Keyword(null,"tutorials","tutorials",1876456269)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["/single-tutorial",new cljs.core.Keyword(null,"single-tutorial-page","single-tutorial-page",403563291)], null)], null));
 kramaos.core.path_for = (function kramaos$core$path_for(var_args){
 var args__4647__auto__ = [];
-var len__4641__auto___28159 = arguments.length;
-var i__4642__auto___28160 = (0);
+var len__4641__auto___38722 = arguments.length;
+var i__4642__auto___38723 = (0);
 while(true){
-if((i__4642__auto___28160 < len__4641__auto___28159)){
-args__4647__auto__.push((arguments[i__4642__auto___28160]));
+if((i__4642__auto___38723 < len__4641__auto___38722)){
+args__4647__auto__.push((arguments[i__4642__auto___38723]));
 
-var G__28161 = (i__4642__auto___28160 + (1));
-i__4642__auto___28160 = G__28161;
+var G__38724 = (i__4642__auto___38723 + (1));
+i__4642__auto___38723 = G__38724;
 continue;
 } else {
 }
@@ -36,9 +36,9 @@ var argseq__4648__auto__ = ((((1) < args__4647__auto__.length))?(new cljs.core.I
 return kramaos.core.path_for.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4648__auto__);
 });
 
-kramaos.core.path_for.cljs$core$IFn$_invoke$arity$variadic = (function (route,p__28155){
-var vec__28156 = p__28155;
-var params = cljs.core.nth.call(null,vec__28156,(0),null);
+kramaos.core.path_for.cljs$core$IFn$_invoke$arity$variadic = (function (route,p__38718){
+var vec__38719 = p__38718;
+var params = cljs.core.nth.call(null,vec__38719,(0),null);
 if(cljs.core.truth_(params)){
 return new cljs.core.Keyword(null,"path","path",-188191168).cljs$core$IFn$_invoke$arity$1(reitit.frontend.match_by_name.call(null,kramaos.core.router,route,params));
 } else {
@@ -49,11 +49,11 @@ return new cljs.core.Keyword(null,"path","path",-188191168).cljs$core$IFn$_invok
 kramaos.core.path_for.cljs$lang$maxFixedArity = (1);
 
 /** @this {Function} */
-kramaos.core.path_for.cljs$lang$applyTo = (function (seq28153){
-var G__28154 = cljs.core.first.call(null,seq28153);
-var seq28153__$1 = cljs.core.next.call(null,seq28153);
+kramaos.core.path_for.cljs$lang$applyTo = (function (seq38716){
+var G__38717 = cljs.core.first.call(null,seq38716);
+var seq38716__$1 = cljs.core.next.call(null,seq38716);
 var self__4628__auto__ = this;
-return self__4628__auto__.cljs$core$IFn$_invoke$arity$variadic(G__28154,seq28153__$1);
+return self__4628__auto__.cljs$core$IFn$_invoke$arity$variadic(G__38717,seq38716__$1);
 });
 
 kramaos.core.path_for.call(null,new cljs.core.Keyword(null,"about","about",1423892543));
@@ -83,9 +83,9 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 });
 });
 kramaos.core.page_for = (function kramaos$core$page_for(route){
-var G__28162 = route;
-var G__28162__$1 = (((G__28162 instanceof cljs.core.Keyword))?G__28162.fqn:null);
-switch (G__28162__$1) {
+var G__38725 = route;
+var G__38725__$1 = (((G__38725 instanceof cljs.core.Keyword))?G__38725.fqn:null);
+switch (G__38725__$1) {
 case "index":
 return new cljs.core.Var(function(){return kramaos.core.home_page;},new cljs.core.Symbol("kramaos.core","home-page","kramaos.core/home-page",1946583204,null),cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"ns","ns",441598760),new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"arglists","arglists",1661989754),new cljs.core.Keyword(null,"doc","doc",1913296891),new cljs.core.Keyword(null,"test","test",577538877)],[new cljs.core.Symbol(null,"kramaos.core","kramaos.core",1616423552,null),new cljs.core.Symbol(null,"home-page","home-page",-850279575,null),"src/cljs/kramaos/core.cljs",16,1,57,57,cljs.core.list(cljs.core.PersistentVector.EMPTY),null,(cljs.core.truth_(kramaos.core.home_page)?kramaos.core.home_page.cljs$lang$test:null)]));
 
@@ -107,7 +107,7 @@ return new cljs.core.Var(function(){return kramaos.core.admin_page;},new cljs.co
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__28162__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__38725__$1)].join('')));
 
 }
 });
@@ -141,4 +141,4 @@ accountant.core.dispatch_current_BANG_.call(null);
 return kramaos.core.mount_root.call(null);
 });
 
-//# sourceMappingURL=core.js.map?rel=1545901503786
+//# sourceMappingURL=core.js.map?rel=1545903846164

@@ -39,4 +39,4 @@ return kramaos.components.navbar.communityToggle.call(null);
 })], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"class","class",-2030961996),color], null),"Community"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"i.dropdown.icon","i.dropdown.icon",441444121),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"class","class",-2030961996),color], null)], null),kramaos.components.navbar.communityToggleIcon.call(null)], null);
 });
 
-//# sourceMappingURL=navbar.js.map?rel=1545891711401
+//# sourceMappingURL=navbar.js.map?rel=1545903846053
