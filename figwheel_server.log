@@ -4423,23 +4423,15 @@ Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "sr
 [32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.31 seconds.[0m
 notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/tutorials.js
 Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.537 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
-notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/navbar.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.438 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/navbar.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 1.039 seconds.[0m
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.79 seconds.[0m
 [36m----  Exception    ----[0m
 
-  [1mAssert failed: file:/home/koompi/MEGA/kramaos/src/cljs/kramaos/components/single-tutorial.cljs does not provide a namespace
+  [1mAssert failed: file:/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs does not provide a namespace
 (first provides)[0m
 
 [36m----  Exception Stack Trace  ----[0m
 
-java.lang.AssertionError: Assert failed: file:/home/koompi/MEGA/kramaos/src/cljs/kramaos/components/single-tutorial.cljs does not provide a namespace
+java.lang.AssertionError: Assert failed: file:/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs does not provide a namespace
 (first provides)
  at cljs.closure$javascript_file.invokeStatic (closure.clj:497)
     cljs.closure$javascript_file.invoke (closure.clj:493)
@@ -4489,222 +4481,1351 @@ java.lang.AssertionError: Assert failed: file:/home/koompi/MEGA/kramaos/src/cljs
     java.lang.Thread.run (Thread.java:748)
 
 Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 4.973 seconds.[0m
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.599 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:5 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 5, col 14] The map literal starting with :H1 on line 5 column 9 contains 1 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m3[0m  [36m(defn contact[0m
+  [36m4[0m  [36m  [][0m
+  [33m5[0m  [1m  [:dev {:H1} "Hello"])[0m
+  [0m [0m  [33m  /home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 5, col 14] The map literal starting with :H1 on line 5 column 9 contains 1 form(s). Map literals must contain an even number of forms.[0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.602 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:5 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 5, col 14] The map literal starting with :H1 on line 5 column 9 contains 1 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m3[0m  [36m(defn contact[0m
+  [36m4[0m  [36m  [][0m
+  [33m5[0m  [1m  [:dev {:H1} "Hello"])[0m
+  [0m [0m  [33m  /home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 5, col 14] The map literal starting with :H1 on line 5 column 9 contains 1 form(s). Map literals must contain an even number of forms.[0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.493 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:5 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 5, col 14] The map literal starting with :H1 on line 5 column 9 contains 1 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m3[0m  [36m(defn contact[0m
+  [36m4[0m  [36m  [][0m
+  [33m5[0m  [1m  [:dev {:H1} "Hello"])[0m
+  [0m [0m  [33m  /home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 5, col 14] The map literal starting with :H1 on line 5 column 9 contains 1 form(s). Map literals must contain an even number of forms.[0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.483 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:5 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 5, col 14] The map literal starting with :H1 on line 5 column 9 contains 1 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m3[0m  [36m(defn contact[0m
+  [36m4[0m  [36m  [][0m
+  [33m5[0m  [1m  [:dev {:H1} "Hello"])[0m
+  [0m [0m  [33m  /home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 5, col 14] The map literal starting with :H1 on line 5 column 9 contains 1 form(s). Map literals must contain an even number of forms.[0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.578 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:5 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 5, col 14] The map literal starting with :H1 on line 5 column 9 contains 1 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m3[0m  [36m(defn contact[0m
+  [36m4[0m  [36m  [][0m
+  [33m5[0m  [1m  [:dev {:H1} "Hello"])[0m
+  [0m [0m  [33m  /home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 5, col 14] The map literal starting with :H1 on line 5 column 9 contains 1 form(s). Map literals must contain an even number of forms.[0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 2.377 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
 notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
 Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.419 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.011 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
 Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.847 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.908 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
 Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 4.552 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.835 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
 Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.176 seconds.[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.935 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.954 seconds.[0m
 notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
 Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.92 seconds.[0m
-[36m----  Could not Analyze  src/cljs/kramaos/core.cljs   line:88  column:3  ----[0m
-
-  [1mUnable to resolve var: single-tutorial in this context at line 88 src/cljs/kramaos/core.cljs[0m
-
-  [36m87[0m  [36m(defn page-for [route][0m
-  [33m88[0m  [1m  (case route[0m
-  [0m  [0m  [33m  ^--- Unable to resolve var: single-tutorial in this context at line 88 src/cljs/kramaos/core.cljs[0m
-  [36m89[0m  [36m    :index #'home-page[0m
-  [36m90[0m  [36m    :kosmos #'kosmos-page[0m
-  [36m91[0m  [36m    :tutorials #'tutorials-page[0m
-
-[36m----  Analysis Error : Please see src/cljs/kramaos/core.cljs  ----[0m
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.918 seconds.[0m
-[36m----  Could not Analyze  src/cljs/kramaos/core.cljs   line:88  column:3  ----[0m
-
-  [1mUnable to resolve var: single-tutorial in this context at line 88 src/cljs/kramaos/core.cljs[0m
-
-  [36m87[0m  [36m(defn page-for [route][0m
-  [33m88[0m  [1m  (case route[0m
-  [0m  [0m  [33m  ^--- Unable to resolve var: single-tutorial in this context at line 88 src/cljs/kramaos/core.cljs[0m
-  [36m89[0m  [36m    :index #'home-page[0m
-  [36m90[0m  [36m    :kosmos #'kosmos-page[0m
-  [36m91[0m  [36m    :tutorials #'tutorials-page[0m
-
-[36m----  Analysis Error : Please see src/cljs/kramaos/core.cljs  ----[0m
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 1.125 seconds.[0m
-[36m----  Could not Analyze  src/cljs/kramaos/core.cljs   line:88  column:3  ----[0m
-
-  [1mUnable to resolve var: single-tutorial in this context at line 88 src/cljs/kramaos/core.cljs[0m
-
-  [36m87[0m  [36m(defn page-for [route][0m
-  [33m88[0m  [1m  (case route[0m
-  [0m  [0m  [33m  ^--- Unable to resolve var: single-tutorial in this context at line 88 src/cljs/kramaos/core.cljs[0m
-  [36m89[0m  [36m    :index #'home-page[0m
-  [36m90[0m  [36m    :kosmos #'kosmos-page[0m
-  [36m91[0m  [36m    :tutorials #'tutorials-page[0m
-
-[36m----  Analysis Error : Please see src/cljs/kramaos/core.cljs  ----[0m
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 4.555 seconds.[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.908 seconds.[0m
 notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
 Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 4.89 seconds.[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.912 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.933 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.865 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.979 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.95 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/kramaos/components/navbar.cljs   line:19  column:1  ----[0m
+
+  [1mcontact at line 9 is being replaced[0m
+
+  [36m15[0m  [36m(defn communityToggle [][0m
+  [36m16[0m  [36m  (swap! community assoc :menu (not (get-in @community [:menu])))[0m
+  [36m17[0m  [36m  (swap! products assoc :menu false))[0m
+  [36m18[0m  [36m[0m
+  [33m19[0m  [1m(defn contact [][0m
+  [0m  [0m  [33m^--- contact at line 9 is being replaced[0m
+  [36m20[0m  [36m  (swap! products assoc :menu (not (get-in @contact [:menu])))[0m
+  [36m21[0m  [36m  (swap! community assoc :menu false)))[0m
+  [36m22[0m  [36m  [0m
+  [36m23[0m  [36m(defn productsToggleIcon [][0m
+  [36m24[0m  [36m  (if (get-in @products [:menu])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.584 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/navbar.cljs   line:21 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/navbar.cljs [line 21, col 40] Unmatched delimiter ).[0m
+
+  [36m19[0m  [36m(defn contact [][0m
+  [36m20[0m  [36m  (swap! products assoc :menu (not (get-in @contact [:menu])))[0m
+  [33m21[0m  [1m  (swap! community assoc :menu false)))[0m
+  [0m  [0m  [33m  /home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/navbar.cljs [line 21, col 40] Unmatched delimiter ).[0m
+  [36m22[0m  [36m  [0m
+  [36m23[0m  [36m(defn productsToggleIcon [][0m
+  [36m24[0m  [36m  (if (get-in @products [:menu])[0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/kramaos/components/navbar.cljs   line:19  column:1  ----[0m
+
+  [1mcontact at line 9 is being replaced[0m
+
+  [36m15[0m  [36m(defn communityToggle [][0m
+  [36m16[0m  [36m  (swap! community assoc :menu (not (get-in @community [:menu])))[0m
+  [36m17[0m  [36m  (swap! products assoc :menu false))[0m
+  [36m18[0m  [36m[0m
+  [33m19[0m  [1m(defn contact [][0m
+  [0m  [0m  [33m^--- contact at line 9 is being replaced[0m
+  [36m20[0m  [36m  (swap! contact assoc :menu (not (get-in @contact [:menu])))[0m
+  [36m21[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m22[0m  [36m  (swap! community assoc :menu false))[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m(defn productsToggleIcon [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.959 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/kramaos/components/navbar.cljs   line:20  column:1  ----[0m
+
+  [1mcontact at line 9 is being replaced[0m
+
+  [36m16[0m  [36m  (swap! community assoc :menu (not (get-in @community [:menu])))[0m
+  [36m17[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m18[0m  [36m  (swap! contact assoc :menu false))[0m
+  [36m19[0m  [36m[0m
+  [33m20[0m  [1m(defn contact [][0m
+  [0m  [0m  [33m^--- contact at line 9 is being replaced[0m
+  [36m21[0m  [36m  (swap! contact assoc :menu (not (get-in @contact [:menu])))[0m
+  [36m22[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m23[0m  [36m  (swap! community assoc :menu false))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn productsToggleIcon [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.972 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.806 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/kramaos/components/navbar.cljs   line:21  column:1  ----[0m
+
+  [1mcontact at line 9 is being replaced[0m
+
+  [36m17[0m  [36m  (swap! community assoc :menu (not (get-in @community [:menu])))[0m
+  [36m18[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m19[0m  [36m  (swap! contact assoc :menu false))[0m
+  [36m20[0m  [36m[0m
+  [33m21[0m  [1m(defn contact [][0m
+  [0m  [0m  [33m^--- contact at line 9 is being replaced[0m
+  [36m22[0m  [36m  (swap! contact assoc :menu (not (get-in @contact [:menu])))[0m
+  [36m23[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m24[0m  [36m  (swap! community assoc :menu false))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn productsToggleIcon [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.03 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.901 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.854 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/kramaos/components/navbar.cljs   line:21  column:1  ----[0m
+
+  [1mcontact at line 9 is being replaced[0m
+
+  [36m17[0m  [36m  (swap! community assoc :menu (not (get-in @community [:menu])))[0m
+  [36m18[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m19[0m  [36m  (swap! contact assoc :menu false))[0m
+  [36m20[0m  [36m[0m
+  [33m21[0m  [1m(defn contact [][0m
+  [0m  [0m  [33m^--- contact at line 9 is being replaced[0m
+  [36m22[0m  [36m  (swap! contact assoc :menu (not (get-in @contact [:menu])))[0m
+  [36m23[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m24[0m  [36m  (swap! community assoc :menu false))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn productsToggleIcon [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.954 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/kramaos/components/navbar.cljs   line:21  column:1  ----[0m
+
+  [1mcontact at line 9 is being replaced[0m
+
+  [36m17[0m  [36m  (swap! community assoc :menu (not (get-in @community [:menu])))[0m
+  [36m18[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m19[0m  [36m  (swap! contact assoc :menu false))[0m
+  [36m20[0m  [36m[0m
+  [33m21[0m  [1m(defn contact [][0m
+  [0m  [0m  [33m^--- contact at line 9 is being replaced[0m
+  [36m22[0m  [36m  (swap! contact assoc :menu (not (get-in @contact [:menu])))[0m
+  [36m23[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m24[0m  [36m  (swap! community assoc :menu false))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn productsToggleIcon [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.96 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/kramaos/components/navbar.cljs   line:21  column:1  ----[0m
+
+  [1mcontact at line 9 is being replaced[0m
+
+  [36m17[0m  [36m  (swap! community assoc :menu (not (get-in @community [:menu])))[0m
+  [36m18[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m19[0m  [36m  (swap! contact assoc :menu false))[0m
+  [36m20[0m  [36m[0m
+  [33m21[0m  [1m(defn contact [][0m
+  [0m  [0m  [33m^--- contact at line 9 is being replaced[0m
+  [36m22[0m  [36m  (swap! contact assoc :menu (not (get-in @contact [:menu])))[0m
+  [36m23[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m24[0m  [36m  (swap! community assoc :menu false))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn productsToggleIcon [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.999 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/kramaos/components/navbar.cljs   line:21  column:1  ----[0m
+
+  [1mcontact at line 9 is being replaced[0m
+
+  [36m17[0m  [36m  (swap! community assoc :menu (not (get-in @community [:menu])))[0m
+  [36m18[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m19[0m  [36m  (swap! contact assoc :menu false))[0m
+  [36m20[0m  [36m[0m
+  [33m21[0m  [1m(defn contact [][0m
+  [0m  [0m  [33m^--- contact at line 9 is being replaced[0m
+  [36m22[0m  [36m  (swap! contact assoc :menu (not (get-in @contact [:menu])))[0m
+  [36m23[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m24[0m  [36m  (swap! community assoc :menu false))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn productsToggleIcon [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.98 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/kramaos/components/navbar.cljs   line:21  column:1  ----[0m
+
+  [1mcontact at line 9 is being replaced[0m
+
+  [36m17[0m  [36m  (swap! community assoc :menu (not (get-in @community [:menu])))[0m
+  [36m18[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m19[0m  [36m  (swap! contact assoc :menu false))[0m
+  [36m20[0m  [36m[0m
+  [33m21[0m  [1m(defn contact [][0m
+  [0m  [0m  [33m^--- contact at line 9 is being replaced[0m
+  [36m22[0m  [36m  (swap! contact assoc :menu (not (get-in @contact [:menu])))[0m
+  [36m23[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m24[0m  [36m  (swap! community assoc :menu false))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn productsToggleIcon [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.06 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.831 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/kramaos/components/navbar.cljs   line:21  column:1  ----[0m
+
+  [1mcontact at line 9 is being replaced[0m
+
+  [36m17[0m  [36m  (swap! community assoc :menu (not (get-in @community [:menu])))[0m
+  [36m18[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m19[0m  [36m  (swap! contact assoc :menu false))[0m
+  [36m20[0m  [36m[0m
+  [33m21[0m  [1m(defn contact [][0m
+  [0m  [0m  [33m^--- contact at line 9 is being replaced[0m
+  [36m22[0m  [36m  (swap! contact assoc :menu (not (get-in @contact [:menu])))[0m
+  [36m23[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m24[0m  [36m  (swap! community assoc :menu false))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn productsToggleIcon [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.063 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/kramaos/components/navbar.cljs   line:21  column:1  ----[0m
+
+  [1mcontact at line 9 is being replaced[0m
+
+  [36m17[0m  [36m  (swap! community assoc :menu (not (get-in @community [:menu])))[0m
+  [36m18[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m19[0m  [36m  (swap! contact assoc :menu false))[0m
+  [36m20[0m  [36m[0m
+  [33m21[0m  [1m(defn contact [][0m
+  [0m  [0m  [33m^--- contact at line 9 is being replaced[0m
+  [36m22[0m  [36m  (swap! contact assoc :menu (not (get-in @contact [:menu])))[0m
+  [36m23[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m24[0m  [36m  (swap! community assoc :menu false))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn productsToggleIcon [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.968 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/kramaos/components/navbar.cljs   line:21  column:1  ----[0m
+
+  [1mcontact at line 9 is being replaced[0m
+
+  [36m17[0m  [36m  (swap! community assoc :menu (not (get-in @community [:menu])))[0m
+  [36m18[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m19[0m  [36m  (swap! contact assoc :menu false))[0m
+  [36m20[0m  [36m[0m
+  [33m21[0m  [1m(defn contact [][0m
+  [0m  [0m  [33m^--- contact at line 9 is being replaced[0m
+  [36m22[0m  [36m  (swap! contact assoc :menu (not (get-in @contact [:menu])))[0m
+  [36m23[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m24[0m  [36m  (swap! community assoc :menu false))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn productsToggleIcon [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.98 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/kramaos/components/navbar.cljs   line:21  column:1  ----[0m
+
+  [1mcontact at line 9 is being replaced[0m
+
+  [36m17[0m  [36m  (swap! community assoc :menu (not (get-in @community [:menu])))[0m
+  [36m18[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m19[0m  [36m  (swap! contact assoc :menu false))[0m
+  [36m20[0m  [36m[0m
+  [33m21[0m  [1m(defn contact [][0m
+  [0m  [0m  [33m^--- contact at line 9 is being replaced[0m
+  [36m22[0m  [36m  (swap! contact assoc :menu (not (get-in @contact [:menu])))[0m
+  [36m23[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m24[0m  [36m  (swap! community assoc :menu false))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn productsToggleIcon [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.583 seconds.[0m
+[36m----  Could not Analyze  src/cljs/kramaos/components/navbar.cljs   line:66  column:1  ----[0m
+
+  [1mUnsupported binding key: :div[0m
+
+  [36m64[0m  [36m   (communityToggleIcon)])[0m
+  [36m65[0m  [36m[0m
+  [33m66[0m  [1m(defn contact-menu[0m
+  [0m  [0m  [33m^--- Unsupported binding key: :div[0m
+  [36m67[0m  [36m    [:div {:class "ui item"}[0m
+  [36m68[0m  [36m      [:a {:href "/contact"}]])[0m
+
+[36m----  Analysis Error : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/kramaos/components/navbar.cljs   line:21  column:1  ----[0m
+
+  [1mcontact at line 9 is being replaced[0m
+
+  [36m17[0m  [36m  (swap! community assoc :menu (not (get-in @community [:menu])))[0m
+  [36m18[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m19[0m  [36m  (swap! contact assoc :menu false))[0m
+  [36m20[0m  [36m[0m
+  [33m21[0m  [1m(defn contact [][0m
+  [0m  [0m  [33m^--- contact at line 9 is being replaced[0m
+  [36m22[0m  [36m  (swap! contact assoc :menu (not (get-in @contact [:menu])))[0m
+  [36m23[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m24[0m  [36m  (swap! community assoc :menu false))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn productsToggleIcon [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.648 seconds.[0m
+[36m----  Could not Analyze  src/cljs/kramaos/components/navbar.cljs   line:66  column:1  ----[0m
+
+  [1mUnsupported binding key: :div[0m
+
+  [36m64[0m  [36m   (communityToggleIcon)])[0m
+  [36m65[0m  [36m[0m
+  [33m66[0m  [1m(defn contact-menu[0m
+  [0m  [0m  [33m^--- Unsupported binding key: :div[0m
+  [36m67[0m  [36m    [:div {:class "ui item"}[0m
+  [36m68[0m  [36m      [:a {:href "/contact"}]])[0m
+
+[36m----  Analysis Error : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/kramaos/components/navbar.cljs   line:21  column:1  ----[0m
+
+  [1mcontact at line 9 is being replaced[0m
+
+  [36m17[0m  [36m  (swap! community assoc :menu (not (get-in @community [:menu])))[0m
+  [36m18[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m19[0m  [36m  (swap! contact assoc :menu false))[0m
+  [36m20[0m  [36m[0m
+  [33m21[0m  [1m(defn contact [][0m
+  [0m  [0m  [33m^--- contact at line 9 is being replaced[0m
+  [36m22[0m  [36m  (swap! contact assoc :menu (not (get-in @contact [:menu])))[0m
+  [36m23[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m24[0m  [36m  (swap! community assoc :menu false))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn productsToggleIcon [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.702 seconds.[0m
+[36m----  Could not Analyze  src/cljs/kramaos/components/navbar.cljs   line:66  column:1  ----[0m
+
+  [1mUnsupported binding key: :div[0m
+
+  [36m64[0m  [36m   (communityToggleIcon)])[0m
+  [36m65[0m  [36m[0m
+  [33m66[0m  [1m(defn contact-menu[0m
+  [0m  [0m  [33m^--- Unsupported binding key: :div[0m
+  [36m67[0m  [36m    [:div {:class "ui item"}[0m
+  [36m68[0m  [36m      [:a {:href "/contact"}]])[0m
+
+[36m----  Analysis Error : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/kramaos/components/navbar.cljs   line:21  column:1  ----[0m
+
+  [1mcontact at line 9 is being replaced[0m
+
+  [36m17[0m  [36m  (swap! community assoc :menu (not (get-in @community [:menu])))[0m
+  [36m18[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m19[0m  [36m  (swap! contact assoc :menu false))[0m
+  [36m20[0m  [36m[0m
+  [33m21[0m  [1m(defn contact [][0m
+  [0m  [0m  [33m^--- contact at line 9 is being replaced[0m
+  [36m22[0m  [36m  (swap! contact assoc :menu (not (get-in @contact [:menu])))[0m
+  [36m23[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m24[0m  [36m  (swap! community assoc :menu false))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn productsToggleIcon [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.617 seconds.[0m
+[36m----  Could not Analyze  src/cljs/kramaos/components/navbar.cljs   line:66  column:1  ----[0m
+
+  [1mUnsupported binding key: :div[0m
+
+  [36m64[0m  [36m   (communityToggleIcon)])[0m
+  [36m65[0m  [36m[0m
+  [33m66[0m  [1m(defn contact-menu[0m
+  [0m  [0m  [33m^--- Unsupported binding key: :div[0m
+  [36m67[0m  [36m  [:div {:class "ui item"}[0m
+  [36m68[0m  [36m    [:a {:href "/contact"}]])[0m
+
+[36m----  Analysis Error : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/kramaos/components/navbar.cljs   line:21  column:1  ----[0m
+
+  [1mcontact at line 9 is being replaced[0m
+
+  [36m17[0m  [36m  (swap! community assoc :menu (not (get-in @community [:menu])))[0m
+  [36m18[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m19[0m  [36m  (swap! contact assoc :menu false))[0m
+  [36m20[0m  [36m[0m
+  [33m21[0m  [1m(defn contact [][0m
+  [0m  [0m  [33m^--- contact at line 9 is being replaced[0m
+  [36m22[0m  [36m  (swap! contact assoc :menu (not (get-in @contact [:menu])))[0m
+  [36m23[0m  [36m  (swap! products assoc :menu false)[0m
+  [36m24[0m  [36m  (swap! community assoc :menu false))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn productsToggleIcon [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/kramaos/components/navbar.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.951 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.932 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 3.489 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.783 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.563 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.133 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.049 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.185 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.141 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.302 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.238 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.18 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.389 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.21 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.215 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.946 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.915 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.121 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.111 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.176 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.752 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:15 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 15, col 42] The map literal starting with :type on line 15 column 19 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m13[0m  [36m[:div {:class "two fields"}[0m
+  [36m14[0m  [36m  [:div {:class "field"}[0m
+  [33m15[0m  [1m  [:input {:type "text", :value }]][0m
+  [0m  [0m  [33m  /home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 15, col 42] The map literal starting with :type on line 15 column 19 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m16[0m  [36m  [:div {:class "field"}[0m
+  [36m17[0m  [36m  [:input {:type "text", :value }]]][0m
+  [36m18[0m  [36m  ]]])[0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.767 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:16 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 16, col 42] The map literal starting with :type on line 16 column 19 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m14[0m  [36m[:div {:class "two fields"}[0m
+  [36m15[0m  [36m  [:div {:class "field"}[0m
+  [33m16[0m  [1m  [:input {:type "text", :value }]][0m
+  [0m  [0m  [33m  /home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 16, col 42] The map literal starting with :type on line 16 column 19 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m17[0m  [36m  [:div {:class "field"}[0m
+  [36m18[0m  [36m  [:input {:type "text", :value }]]][0m
+  [36m19[0m  [36m  ]]])[0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.082 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.384 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.807 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:15 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 15, col 40] The map literal starting with :type on line 15 column 17 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m13[0m  [36m    [:div {:class "two fields"}[0m
+  [36m14[0m  [36m     [:div {:class "field"}[0m
+  [33m15[0m  [1m      [:input {:type "text", :value }]][0m
+  [0m  [0m  [33m      /home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 15, col 40] The map literal starting with :type on line 15 column 17 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m16[0m  [36m     [:div {:class "field"}[0m
+  [36m17[0m  [36m      [:input {:type "text", :value }]]][0m
+  [36m18[0m  [36m]])[0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.625 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:15 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 15, col 40] The map literal starting with :type on line 15 column 17 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m13[0m  [36m    [:div {:class "two fields"}[0m
+  [36m14[0m  [36m     [:div {:class "field"}[0m
+  [33m15[0m  [1m      [:input {:type "text", :value }]][0m
+  [0m  [0m  [33m      /home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 15, col 40] The map literal starting with :type on line 15 column 17 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m16[0m  [36m     [:div {:class "field"}[0m
+  [36m17[0m  [36m      [:input {:type "text", :value }]]][0m
+  [36m18[0m  [36m]])[0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.265 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.819 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:15 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 15, col 42] The map literal starting with :type on line 15 column 19 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m13[0m  [36m[:div {:class "two fields"}[0m
+  [36m14[0m  [36m  [:div {:class "field"}[0m
+  [33m15[0m  [1m  [:input {:type "text", :value }]][0m
+  [0m  [0m  [33m  /home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 15, col 42] The map literal starting with :type on line 15 column 19 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m16[0m  [36m  [:div {:class "field"}[0m
+  [36m17[0m  [36m  [:input {:type "text", :value }]]][0m
+  [36m18[0m  [36m  ]]])[0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.115 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.141 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.103 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.96 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.089 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.087 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.711 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:16 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 16, col 40] The map literal starting with :type on line 16 column 17 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m14[0m  [36m[:div {:class "field"}[0m
+  [36m15[0m  [36m[:label "First Name* "][0m
+  [33m16[0m  [1m[:input {:type "text", :value }]][0m
+  [0m  [0m  [33m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 16, col 40] The map literal starting with :type on line 16 column 17 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m17[0m  [36m[:div {:class "field"}[0m
+  [36m18[0m  [36m[:label "Last Name* "][0m
+  [36m19[0m  [36m[:input {:type "text", :value }]]][0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.512 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:16 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 16, col 40] The map literal starting with :type on line 16 column 17 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m14[0m  [36m        [:div {:class "field"}[0m
+  [36m15[0m  [36m      [0m
+  [33m16[0m  [1m        [:input {:type "text", :value }]][0m
+  [0m  [0m  [33m        /home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 16, col 40] The map literal starting with :type on line 16 column 17 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m17[0m  [36m        [:div {:class "field"}[0m
+  [36m18[0m  [36m[0m
+  [36m19[0m  [36m        [:input {:type "text", :value }]]][0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.719 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:15 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 15, col 42] The map literal starting with :type on line 15 column 19 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m13[0m  [36m[:div {:class "two fields"}[0m
+  [36m14[0m  [36m  [:div {:class "field"}[0m
+  [33m15[0m  [1m    [:input {:type "text", :value }]][0m
+  [0m  [0m  [33m    /home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 15, col 42] The map literal starting with :type on line 15 column 19 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m16[0m  [36m  [:div {:class "field"}[0m
+  [36m17[0m  [36m    [:input {:type "text", :value }]]][0m
+  [36m18[0m  [36m  ]]])[0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.791 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:15 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 15, col 42] The map literal starting with :type on line 15 column 19 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m13[0m  [36m[:div {:class "two fields"}[0m
+  [36m14[0m  [36m  [:div {:class "field"}[0m
+  [33m15[0m  [1m    [:input {:type "text", :value }]][0m
+  [0m  [0m  [33m    /home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 15, col 42] The map literal starting with :type on line 15 column 19 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m16[0m  [36m  [:div {:class "field"}[0m
+  [36m17[0m  [36m    [:input {:type "text", :value }]]]]]])[0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.757 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:14 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 14, col 63] The map literal starting with :type on line 14 column 40 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m12[0m  [36m[:div {:class "ui large form"}[0m
+  [36m13[0m  [36m[:div {:class "two fields"}[0m
+  [33m14[0m  [1m  [:div {:class "field"} [:input {:type "text", :value }]][0m
+  [0m  [0m  [33m  /home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 14, col 63] The map literal starting with :type on line 14 column 40 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m15[0m  [36m  [:div {:class "field"} [:input {:type "text", :value }]]]]]])[0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.701 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:15 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 15, col 63] The map literal starting with :type on line 15 column 40 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m13[0m  [36m[:div {:class "two fields"}[0m
+  [36m14[0m  [36m  [:div {:class "field"} [:input {:type "text",  }]][0m
+  [33m15[0m  [1m  [:div {:class "field"} [:input {:type "text", :value }]]]]]])[0m
+  [0m  [0m  [33m  /home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 15, col 63] The map literal starting with :type on line 15 column 40 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.764 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:15 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 15, col 63] The map literal starting with :type on line 15 column 40 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m13[0m  [36m[:div {:class "two fields"}[0m
+  [36m14[0m  [36m  [:div {:class "field"} [:input {:type "text",  }]][0m
+  [33m15[0m  [1m  [:div {:class "field"} [:input {:type "text", :value }]]]]]])[0m
+  [0m  [0m  [33m  /home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 15, col 63] The map literal starting with :type on line 15 column 40 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.101 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.065 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.161 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.13 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.185 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.021 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.275 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.294 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.343 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.168 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.25 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.129 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.096 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.147 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.163 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.198 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.982 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.834 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.918 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.954 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.91 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.949 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.887 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.986 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.844 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.997 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.927 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.022 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.157 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.95 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.96 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.932 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.954 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.849 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.948 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.965 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.912 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.922 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.489 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:20 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 20, col 38] The map literal starting with :style on line 20 column 15 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m18[0m  [36m[:div {:class "field"} [:textarea {:rows "5"}]][0m
+  [36m19[0m  [36m[:center [:div {:class "ui submit button positive disabled right floated"} "Submit"]][0m
+  [33m20[0m  [1m[:div {:style :margin "10px"}][0m
+  [0m  [0m  [33m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 20, col 38] The map literal starting with :style on line 20 column 15 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m21[0m  [36m]]])[0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.872 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.539 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:20 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 20, col 38] The map literal starting with :style on line 20 column 15 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m18[0m  [36m[:div {:class "field"} [:textarea {:rows "5"}]][0m
+  [36m19[0m  [36m[:center [:div {:class "ui submit button positive disabled right floated"} "Submit"]][0m
+  [33m20[0m  [1m[:div {:style :margin "20px"}][0m
+  [0m  [0m  [33m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 20, col 38] The map literal starting with :style on line 20 column 15 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m21[0m  [36m]]])[0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.996 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.961 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.965 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.017 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.982 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.977 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.866 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.967 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.184 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.013 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.934 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.958 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.417 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.908 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.104 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.872 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.068 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.937 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.947 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.03 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.933 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.921 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.061 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.049 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.956 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.133 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.595 seconds.[0m
+[36m----  Could not Read  src/cljs/kramaos/components/contact.cljs   line:19 ----[0m
+
+  [1m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 19, col 113] The map literal starting with :class on line 19 column 15 contains 7 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m17[0m  [36m[:div {:class "field"} [:input {:type "text" :placeholder "subject"}]][0m
+  [36m18[0m  [36m[:div {:class "field"} [:textarea {:rows "5"}]][0m
+  [33m19[0m  [1m[:div {:class "ui submit button  violet  right floated" :style :padding "12px 10%"  :margin-top "-20px"} "Submit"][0m
+  [0m  [0m  [33m/home/kheang/Desktop/vuthyandme/kramaos-reagent/src/cljs/kramaos/components/contact.cljs [line 19, col 113] The map literal starting with :class on line 19 column 15 contains 7 form(s). Map literals must contain an even number of forms.[0m
+  [36m20[0m  [36m[:div [:br][:br]][0m
+  [36m21[0m  [36m]]])[0m
+
+[36m----  Reader Error : Please see src/cljs/kramaos/components/contact.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.936 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.926 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.954 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.91 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.955 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.906 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.941 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.954 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.946 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.017 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 2.705 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/contact.js
+Notifying browser that CSS file changed: resources/public/css/screen.css
+Notifying browser that CSS file changed: resources/public/css/screen.css
+Notifying browser that CSS file changed: resources/public/css/screen.css
+Notifying browser that CSS file changed: resources/public/css/screen.css
+Notifying browser that CSS file changed: resources/public/css/screen.css
+Notifying browser that CSS file changed: resources/public/css/screen.css
+Notifying browser that CSS file changed: resources/public/css/screen.css
+Notifying browser that CSS file changed: resources/public/css/screen.css
+Notifying browser that CSS file changed: resources/public/css/screen.css
+Notifying browser that CSS file changed: resources/public/css/screen.css
+Notifying browser that CSS file changed: resources/public/css/screen.css
+Notifying browser that CSS file changed: resources/public/css/screen.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.219 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/admin/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.197 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/admin/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.06 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/admin/navbar.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 2.458 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.076 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.037 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.981 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.974 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 2.538 seconds.[0m
 notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
 notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
 notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.609 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.174 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.043 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.568 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
-notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 4.847 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.263 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.962 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 4.88 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.056 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.35 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.061 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.736 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.132 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 4.919 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 4.826 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.945 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 4.701 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.3 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 4.647 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.741 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 6.589 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 7.585 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.64 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.745 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
-notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.314 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 4.348 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 1.048 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 4.908 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 6.529 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 1.212 seconds.[0m
-[36m----  Could not Analyze  src/cljs/kramaos/core.cljs   line:90  column:3  ----[0m
-
-  [1mUnable to resolve var: tutorials-page in this context at line 90 src/cljs/kramaos/core.cljs[0m
-
-  [36m89[0m  [36m(defn page-for [route][0m
-  [33m90[0m  [1m  (case route[0m
-  [0m  [0m  [33m  ^--- Unable to resolve var: tutorials-page in this context at line 90 src/cljs/kramaos/core.cljs[0m
-  [36m91[0m  [36m    :index #'home-page[0m
-  [36m92[0m  [36m    :kosmos #'kosmos-page[0m
-  [36m93[0m  [36m    :tutorials #'tutorials-page[0m
-
-[36m----  Analysis Error : Please see src/cljs/kramaos/core.cljs  ----[0m
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.22 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.517 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/core.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.583 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 4.746 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 6.768 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 4.874 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 4.925 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.676 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.219 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.756 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 4.997 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.146 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
-notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.801 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 6.536 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
-Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
-[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 5.955 seconds.[0m
-notifying browser that file changed:  target/cljsbuild/public/js/out/kramaos/components/single_tutorial.js
+Notifying browser that CSS file changed: resources/public/css/style.css

@@ -14,8 +14,8 @@
               [kramaos.components.kosmos :refer [kosmos]]
               ; turtorial page
               [kramaos.components.tutorials :refer [tutorial]]
-              ; single-tutorial-page
-              [kramaos.components.single-tutorial :refer [single-tutorial]]))
+              ;contact
+              [kramaos.components.contact :refer [contact]]))
 
 ; =================================
 ;; navbar
@@ -29,7 +29,7 @@
           [:div.right.menu.navbar {:class classColor}
               (community-menu color)
               (products-menu color)
-              [:a {:class "item"} "Contact Us"]]]])
+              [:a {:class "item" :href "/contact"} "Contact Us"]]]])
 
 
 
@@ -42,7 +42,7 @@
    [["/" :index]
     ["/kosmos" :kosmos]
     ["/tutorials" :tutorials]
-    ["/single-tutorial" :single-tutorial-page]]))
+    ["/contact" :contact]]))
 
 
 (defn path-for [route & [params]]
@@ -66,17 +66,17 @@
       (kosmos-navbar "#fff" "/img/logo/logo-purple.png" "navbar-white" "black")
       (kosmos)]))
 
-(defn single-tutorial-page []
-  (fn []
-     [:div
-      (kosmos-navbar "#321653" "/img/logo/logo-white.png" "navbar-purple" "white")
-      (single-tutorial)]))
-
 (defn tutorials-page []
   (fn []
      [:div
-      (kosmos-navbar "#fff" "/img/logo/logo-purple.png" "navbar-white" "black")
-      (tutorial)]))
+      (kosmos-navbar "#321653" "/img/logo/logo-white.png" "navbar-purple" "white")
+      [tutorial "BROS PANHA PLOCK"]]))
+
+(defn contact-page []
+  (fn []
+     [:div
+      (kosmos-navbar "#321653" "/img/logo/logo-white.png" "navbar-purple" "white")
+      [contact "BROS PANHA PLOCK"]]))
 
 (defn admin-page []
   (fn []
@@ -91,7 +91,7 @@
     :index #'home-page
     :kosmos #'kosmos-page
     :tutorials #'tutorials-page
-    :single-tutorial-page #'single-tutorial-page
+    :contact #'contact-page
     :admin #'admin-page))
 
 
